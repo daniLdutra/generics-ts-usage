@@ -11,4 +11,4 @@ export function removeDuplicates<T>(tasks: T[]): T[] {
   return Array.from(uniqueSet);
 }
 
-console.log(removeDuplicates(tasks));
+console.log(removeDuplicates(tasks)); // Exit [ 1, 2, 3, 5,4, 9, 8 ]
